@@ -32,6 +32,21 @@ export default {
           ],
         },
       ],
+      "/examples/": [
+        {
+          text: "基础组件",
+          items: [
+            {
+              text: "Button按钮",
+              link: "/examples/button/",
+            },
+            {
+              text: "Icon图标",
+              link: "/examples/Icon/",
+            },
+          ],
+        },
+      ],
     },
   },
 }
