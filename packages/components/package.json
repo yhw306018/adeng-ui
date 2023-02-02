@@ -1,0 +1,22 @@
+{
+  "name": "adeng-ui",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module":"es/index.js",
+  "scripts": {
+    "build": "vite build & esno build/buildLess"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "adeng-ui",
+    "vue3组件库"
+  ],
+  "author": "adeng",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts"
+}
+
