@@ -34,7 +34,7 @@ import './style/index.less'
 import { useAttrs, computed, ref, nextTick, shallowRef, watch, useSlots } from 'vue'
 import Icon from '../icon/index'
 import { calcTextareaHeight } from './utils'
-import { isObject } from '@adeng-ui/utils'
+import { isObject } from '../utils'
 
 defineOptions({
     name: 'k-input'

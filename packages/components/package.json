@@ -18,8 +18,5 @@
   "author": "小月",
   "license": "MIT",
   "description": "",
-  "typings": "lib/index.d.ts",
-  "dependencies": {
-    "@adeng-ui/utils": "^1.0.4"
-  }
+  "typings": "lib/index.d.ts"
 }

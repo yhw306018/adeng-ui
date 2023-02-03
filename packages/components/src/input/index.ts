@@ -1,4 +1,4 @@
 import input from './input.vue'
-import { withInstall } from '@adeng-ui/utils'
+import { withInstall } from '../utils'
 const Input = withInstall(input)
 export default Input

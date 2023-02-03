@@ -1,4 +1,4 @@
 import link from './link.vue'
-import { withInstall } from '@adeng-ui/utils'
+import { withInstall } from '../utils'
 const Link = withInstall(link)
 export default Link
