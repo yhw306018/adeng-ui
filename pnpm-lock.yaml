@@ -62,9 +62,9 @@ importers:
 
   examples:
     specifiers:
-      adeng-ui: workspace:^1.0.0
+      adeng-ui: ^1.0.8
     dependencies:
-      adeng-ui: link:../packages/components
+      adeng-ui: link:../packages/components/adeng-ui
 
   packages/cli-demo:
     specifiers:
@@ -73,17 +73,11 @@ importers:
       create-kitty: link:../create-kitty
 
   packages/components:
-    specifiers:
-      '@adeng-ui/utils': workspace:1.0.1
-    dependencies:
-      '@adeng-ui/utils': link:../utils
+    specifiers: {}
 
   packages/components/adeng-ui:
     specifiers:
-      '@adeng-ui/utils': 1.0.1
       release-it: ^15.5.0
-    dependencies:
-      '@adeng-ui/utils': link:../../utils
     devDependencies:
       release-it: 15.5.0
 
@@ -103,12 +97,9 @@ importers:
       ora: 6.1.2
       prompts: 2.4.2
 
-  packages/utils:
-    specifiers: {}
-
   site:
     specifiers:
-      adeng-ui: workspace:1.0.0
+      adeng-ui: ^1.0.8
       highlight.js: ^11.6.0
       markdown-it: ^13.0.1
       markdown-it-container: ^3.0.0

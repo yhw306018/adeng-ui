@@ -1,5 +1,5 @@
 {
 	"dependencies": {
-		"adeng-ui": "workspace:1.0.0"
+		"adeng-ui": "^1.0.8"
 	}
 }

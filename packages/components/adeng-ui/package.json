@@ -18,9 +18,6 @@
     "adeng-ui",
     "vue3组件库"
   ],
-  "dependencies": {
-    "@adeng-ui/utils": "^1.0.1"
-  },
   "sideEffects": [
     "**/*.css"
   ],
