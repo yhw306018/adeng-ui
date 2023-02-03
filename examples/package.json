@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "adeng-ui": "workspace:^1.0.0"
+    "adeng-ui": "workspace:^1.0.5"
   }
 }
