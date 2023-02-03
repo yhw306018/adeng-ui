@@ -6,7 +6,7 @@ import { mdPlugin } from './config/plugins'
 
 export default defineConfig({
   title: 'Kitty UI',
-  base: process.env.NODE_ENV === 'production' ? '/kittyui/' : '/',
+  base: '/',
   head: [
 
     [
