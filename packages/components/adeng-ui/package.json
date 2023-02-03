@@ -1,6 +1,6 @@
 {
   "name": "adeng-ui",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
@@ -19,7 +19,7 @@
     "vue3组件库"
   ],
   "dependencies": {
-    "@adeng-ui/utils": "1.0.1"
+    "@adeng-ui/utils": "^1.0.1"
   },
   "sideEffects": [
     "**/*.css"
