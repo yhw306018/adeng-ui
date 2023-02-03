@@ -4,7 +4,7 @@ import{_ as s,o as a,c as n,d as t}from"./app.304d66f2.js";const u=JSON.parse('{
 <span class="line"><span style="color:#A6ACCD;"></span></span>
 <span class="line"><span style="color:#A6ACCD;">&lt;script setup&gt;</span></span>
 <span class="line"><span style="color:#A6ACCD;"></span></span>
-<span class="line"><span style="color:#A6ACCD;">import { Button } from &#39;kitty-ui&#39;</span></span>
+<span class="line"><span style="color:#A6ACCD;">import { Button } from &#39;adeng-ui&#39;</span></span>
 <span class="line"><span style="color:#A6ACCD;"></span></span>
 <span class="line"><span style="color:#A6ACCD;">&lt;/script&gt;</span></span>
 <span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div>`,4),p=[l];function c(o,r,i,d,_,A){return a(),n("div",null,p)}const h=s(e,[["render",c]]);export{u as __pageData,h as default};

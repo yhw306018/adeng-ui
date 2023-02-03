@@ -11,7 +11,7 @@
 
 <script setup>
 
-import { Button } from 'kitty-ui'
+import { Button } from 'adeng-ui'
 
 </script>
 ```

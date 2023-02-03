@@ -7,7 +7,7 @@
     "docs:serve": "vitepress serve docs"
   },
   "dependencies": {
-    "adeng-ui": "^1.0.4",
+    "adeng-ui": "workspace:1.0.0",
     "unplugin-vue-setup-extend-plus": "^0.3.2",
     "vitepress": "1.0.0-alpha.13"
   },

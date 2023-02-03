@@ -1,6 +1,6 @@
 {
   "name": "adeng-ui",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yhw306018/adeng-ui"
+    "url": "https://github.com/geeksdidi/kittyui"
   },
   "keywords": [
     "adeng-ui",
     "vue3组件库"
   ],
   "dependencies": {
-    "@kitty-ui/utils": "2.0.3"
+    "@adeng-ui/utils": "1.0.1"
   },
   "sideEffects": [
     "**/*.css"
@@ -27,5 +27,8 @@
   "author": "小月",
   "license": "MIT",
   "description": "",
-  "typings": "lib/index.d.ts"
+  "typings": "lib/index.d.ts",
+  "devDependencies": {
+    "release-it": "^15.5.0"
+  }
 }

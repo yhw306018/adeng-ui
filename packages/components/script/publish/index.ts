@@ -7,7 +7,6 @@ const copypackage = async () => {
 };
 //发布组件
 export const publish = async () => {
-    
     //先给transitpkg升个版本
     await run('pnpm version patch', `${pkgPath}/transitpkg`)
     //复制到dist目录

@@ -16,11 +16,11 @@
 # 选择一个你喜欢的包管理器
 
 # NPM
-$ npm install kitty-ui --save
+$ npm install adeng-ui --save
 
 # Yarn
-$ yarn add kitty-ui
+$ yarn add adeng-ui
 
 # pnpm
-$ pnpm install kitty-ui
+$ pnpm install adeng-ui
 ```

@@ -1,12 +1,12 @@
 import Theme from 'vitepress/theme'
 import './style/vitepress.less'
 
-import ad from 'adeng-ui'
+import kt from 'adeng-ui'
 
 export default {
   ...Theme,
 
   enhanceApp({ app }) {
-    app.use(ad)
+    app.use(kt)
   }
 }
