@@ -380,7 +380,7 @@ const styleClass = computed(() => {
     </div>
 </template>
 <script lang="ts" setup>
-import { Button } from 'kitty-ui'
+import { Button } from 'adeng-ui'
 </script>
 <style lang="less">
 .k-button {
@@ -492,7 +492,7 @@ export default defineComponent({
     </div>
 </template>
 <script lang="ts" setup>
-import { Button } from 'kitty-ui'
+import { Button } from 'adeng-ui'
 
 </script>
 <style lang="less">

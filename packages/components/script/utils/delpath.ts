@@ -31,7 +31,7 @@ const delPath = async (path: string) => {
 
         });
 
-        if (path != `${componentPath}/kitty-ui`) fs.rmdirSync(path);
+        if (path != `${componentPath}/adeng-ui`) fs.rmdirSync(path);
 
 
     }

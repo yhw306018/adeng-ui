@@ -1,8 +1,8 @@
 <!-- button.vue -->
 <template>
-    <button class="xd-button" :class="styleClass">
+    <button class="k-button" :class="styleClass">
         <Icon v-if="iconFont.iconName && iconFont.position != 'right'" :name="iconFont.iconName" />
-        <span class="xd-button-text" v-if="slots.default">
+        <span class="k-button-text" v-if="slots.default">
             <slot />
         </span>
         <Icon v-if="iconFont.position == 'right' && iconFont.iconName" :name="iconFont.iconName" />
@@ -15,18 +15,18 @@ import { defineComponent, computed, useSlots } from 'vue'
 import { buttonProps } from './types'
 import Icon from '../icon/icon.vue'
 export default defineComponent({
-    name: 'xd-button',
+    name: 'k-button',
     props: buttonProps,
     components: { Icon },
     setup(props) {
 
         const styleClass = computed(() => {
             return {
-                [`xd-button--${props.type}`]: props.type,
+                [`k-button--${props.type}`]: props.type,
                 'is-plain': props.plain,
                 'is-round': props.round,
                 'is-disabled': props.disabled,
-                [`xd-button--${props.size}`]: props.size,
+                [`k-button--${props.size}`]: props.size,
             }
         })
 

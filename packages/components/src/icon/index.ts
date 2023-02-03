@@ -1,2 +1,4 @@
 import icon from './icon.vue'
-export default icon
+import { withInstall } from '@adeng-ui/utils'
+const Icon = withInstall(icon)
+export default Icon 

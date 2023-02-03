@@ -1,23 +1,25 @@
 {
-  "name": "deng-ui",
+  "name": "adeng-ui",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "files": [
     "es",
     "lib"
   ],
   "keywords": [
-    "deng-ui",
+    "adeng-ui",
     "vue3组件库"
   ],
-  "author": "ayan",
+  "author": "小月",
   "license": "MIT",
   "description": "",
   "typings": "lib/index.d.ts",
   "dependencies": {
-    "@adeng-ui/utils": "workspace:1.0.0"
+    "@adeng-ui/utils": "workspace:^1.0.1"
   }
 }

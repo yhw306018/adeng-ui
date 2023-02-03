@@ -1,9 +1,13 @@
 {
   "name": "@adeng-ui/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "main": "./index.ts",
+  "module": "./index.ts",
   "description": "",
-  "main": "index.ts",
   "keywords": [],
+  "files": [
+    "dist"
+  ],
   "author": "",
   "license": "MIT",
   "scripts": {

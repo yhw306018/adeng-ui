@@ -1,9 +1,9 @@
 <template>
-    <div class="xd-icon">
+    <div class="kitty-icon">
         <svg class="icon" :style="iconColor" aria-hidden="true">
             <use :xlink:href="iconName"></use>
         </svg>
-        <div v-if="dot" class="xd-info" :class="styleDot">{{ badge }}</div>
+        <div v-if="dot" class="kitty-info" :class="styleDot">{{ badge }}</div>
     </div>
 </template>
 <script lang="ts">
@@ -12,7 +12,7 @@ import './style/index.less'
 import { defineComponent, computed, onMounted } from 'vue'
 import { iconProps } from './types'
 export default defineComponent({
-    name: 'xd-icon',
+    name: 'k-icon',
     props: iconProps,
     setup(props) {
         onMounted(() => {
@@ -23,7 +23,7 @@ export default defineComponent({
         })
         const styleDot = computed(() => {
             return {
-                [`xd-dot`]: props.dot && !props.badge
+                [`kitty-dot`]: props.dot && !props.badge
             }
         })
         const badge = computed(() => {
